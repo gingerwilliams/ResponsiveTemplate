@@ -1,0 +1,1 @@
+<div id="footer">Copyright &copy 2003, 2012, Oracle and/or its affiliates. All rights reserved. Product Data &copy 2002-2012 ICECAT.BIZ | <a href="#">Disclaimer</a> | <a href="#">json</a> | <a href="#">xml</a></div>
