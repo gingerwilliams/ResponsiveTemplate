@@ -1,4 +1,6 @@
+ 
  <div class="lead-form side-module"><!-- partial -->
+  <a href="#" class="close icon_close"></a>
   <h2 class="grey-b">Check Availability</h2>
   <p class="white-b">Fill out the following form to inquire about available floorplans and units.</p>
   <form action="#" method="post">

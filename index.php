@@ -7,6 +7,7 @@
 <body>
 	<div id="page" class="home">
 		<?php include 'inc/header.php'; ?>
+		<?php include('details/lead-form.php');?>
 			
 
 		<div id="slider">
@@ -37,5 +38,7 @@
 		<?php include 'inc/footer.php'; ?>
 
 	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  	<script src="js/form.js"></script>
 </body>
 </html>

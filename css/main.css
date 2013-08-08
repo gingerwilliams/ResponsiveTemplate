@@ -37,7 +37,7 @@ input[type='text'], input[type='email'], input[type='textfield'] {border:1px sol
 .white-b {display:block; padding-top:10px; border-top:1px solid #ffffff;}
 
 
-.button {display:block; padding:10px 0; width:200px; margin-top:15px; border-radius:5px; border:1px solid #336600; text-align:center; color:#fafafa; text-shadow: 0px -1px #360; font-size:16px;
+.button {display:block; padding:10px 0; width:200px; margin-top:15px; border-radius:5px; border:1px solid #336600; text-align:center; color:#fafafa; text-shadow: 0px -1px #360; font-size:16px; cursor: pointer;
 	background: #99cc66; /* Old browsers */
 	background: -moz-linear-gradient(top,  #99cc66 0%, #336600 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#99cc66), color-stop(100%,#336600)); /* Chrome,Safari4+ */
@@ -86,9 +86,13 @@ color: #360;text-shadow: 0px 1px #FFF;}
 
 /** Lead form **/
 .errorBg {border:1px solid red; background:url(../images/theme-a-sprite.png) -25px 0px #f8e0e0 no-repeat;}
+.icon_close {height: 18px;width: 18px;display: block;position: absolute;top: 15px;right: 15px;
+background:url(../images/theme-a-sprite.png) -28px -37px no-repeat;}
+
 
 /** Home Page **/
 
+.home .lead-form {display:none;position:fixed;top:0;left:0;right:0;bottom:0;overflow-y:scroll;width:100%;z-index:100; background:#EFEFEF; padding:25px;}
 #slider {position:relative;}
 #slider .refine_your_search {width:33%; height:400px; background:rgba(250 250 250 .50); position:absolute; left:20px; top:20px; z-index:100;}
 #slider img {width:100%; border:0; padding:0; margin:0;}
@@ -111,7 +115,7 @@ color: #360;text-shadow: 0px 1px #FFF;}
 
 /** Details **/
 
-
+.details .icon_close {display:none;}
 #tabs {border-radius:4px; font-size:12px; position:relative; color:#555;}
 #tabs .tabs {margin-bottom: -1px;}
 #tabs .feat {padding:10px;background:#fff; border:1px solid #D0D0D0; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; box-shadow: 0 -2px 5px #DDD;} 

@@ -8,7 +8,7 @@
   <meta content="">
 </head>
 <body>
-	<div id="page">
+	<div id="page" class="details">
 		<?php include 'inc/header.php'; ?>
 
 		<div id="slider">
